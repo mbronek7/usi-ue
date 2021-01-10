@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :usi, Usi.Repo,
-  username: "postgres",
-  password: "",
+  username: "usi",
+  password: "usi",
   database: "usi_dev",
   hostname: "db",
   show_sensitive_data_on_connection_error: true,
