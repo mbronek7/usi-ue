@@ -6,7 +6,7 @@ network:
 	docker network create usi
 
 download_model:
-		wget https://onnxzoo.blob.core.windows.net/models/opset_10/yolov3/yolov3.onnx
+		cd yolo_ruby && wget https://onnxzoo.blob.core.windows.net/models/opset_10/yolov3/yolov3.onnx
 dev-build:
 		docker-compose -f docker-compose.yml -p $(PROJECT) build
 dev-up:

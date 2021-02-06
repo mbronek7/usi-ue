@@ -1,20 +1,13 @@
-# Usi
+# ReadMe
+# USI UE
 
-To start your Phoenix server:
+To be covered :)
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+## Table of contents
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+  - [Summary](#summary)
+  - [Setup and Documentation](#setup-and-documentation)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Setup and Documentation
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Please read [Local Setup](docs/INSTALLATION.md) to build your own local enviroment.
