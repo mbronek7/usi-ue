@@ -7,8 +7,8 @@
 # General application configuration
 use Mix.Config
 
-config :usi,
-  ecto_repos: [Usi.Repo]
+# config :usi,
+#   ecto_repos: [Usi.Repo]
 
 # Configures the endpoint
 config :usi, UsiWeb.Endpoint,

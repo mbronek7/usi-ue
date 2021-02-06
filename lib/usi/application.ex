@@ -7,8 +7,6 @@ defmodule Usi.Application do
 
   def start(_type, _args) do
     children = [
-      # Start the Ecto repository
-      Usi.Repo,
       # Start the Telemetry supervisor
       UsiWeb.Telemetry,
       # Start the PubSub system
