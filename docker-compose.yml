@@ -3,16 +3,6 @@ volumes:
   node_modules:
   build:
 services:
-  db:
-    image: postgres:11-alpine
-    ports:
-      - 5432
-    environment:
-      POSTGRES_USER: usi
-      POSTGRES_PASSWORD: usi
-    healthcheck:
-      test: pg_isready -U usi -h 127.0.0.1
-      interval: 5s
   app:
     build: .
     env_file: .env
@@ -23,5 +13,3 @@ services:
       - build:/app/_build
     ports:
       - "4000:4000"
-    depends_on:
-      - db

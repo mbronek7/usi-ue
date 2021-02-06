@@ -36,3 +36,12 @@ npm-debug.log
 
 # Node modules
 assets/node_modules/
+
+# Image used in tests
+*.jpg
+
+# Ignore DS_Store
+.DS_Store
+
+# Ignore yolov3 model
+*.onnx
